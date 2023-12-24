@@ -40,7 +40,7 @@ else
    PACKAGE="apache2 wget unzip"
    SVC="apache2"
    sudo apt update
-   sudo apt $PACKAGE -y > /dev/null
+   sudo apt intsall $PACKAGE -y > /dev/null
 
    sudo systemctl start $SVC
    sudo systemctl enable $SVC
